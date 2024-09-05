@@ -1,0 +1,90 @@
+.body{
+    background-color: hsl(0, 0%, 100%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    gap:30px;
+    
+}
+.result{
+    background-color:hsla(256, 72%, 46%, 1) ;
+    padding: 40px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 20px;
+}
+.result h1{
+    font-weight: lighter;
+}
+.number{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin-left: 60px;
+     /* margin-top: -10px;  */
+    background-color:hsl(241, 81%, 54%);
+    margin-bottom: 30px;
+}
+.numerator{
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.denominator{
+    margin-top: 0;
+    font-weight: lighter;
+    color: hsl(241, 100%, 89%);
+}
+.summary{
+    padding:10px;  
+}
+
+
+img{
+    margin-right: 10px;
+}
+.Reaction,.Memory,.Verbal,.Visual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 20px;
+    margin: 10px;
+}
+.Reaction p,.Memory p,.Verbal p,.Visual p{
+    display: block;
+}
+.Reaction{
+    background-color: hsla(0, 100%, 67%,0.2);
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.Memory{
+    background-color: hsla(39, 100%, 56%,0.2);
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.Verbal{
+    background-color: hsla(166, 100%, 37%,0.2);
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.Visual{
+    background-color:hsla(234, 85%, 45%,0.2) ;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.btn{
+    width:100%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    margin: 10px;
+}
